@@ -7,11 +7,16 @@
 </head>
 <body>
     <h1>AI -API-COLLLECTIONS</h1>
-    <button>Fetch Data</button>
-    <pre id=""result></pre>
+    <button onclick="fetchData()">Fetch Data</button>
+    <pre id="result"></pre>
     <script>
         const fetchData =() => {
-            fetch('/')
+            fetch('/ai-collections-api').the(res => res.json()).then(data => {
+                document.getElementById('result').textContent=JSON.stringify(data,null,2);
+            }).catch(err => {
+                console.error(error);
+                document.getElementById('result').textContent ="error fetching data"
+            })
         }
     </script>
 </body>
