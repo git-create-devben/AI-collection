@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "ChatGpt",
+        "discription": "A powerfull AI model for ChatBoot",
+        "Category": "ChatBoot",
+        "pricing": "free"
+    },
+    {
+        "id": 2,
+        "name": "ChatGpt",
+        "discription": "A powerfull AI model for ChatBoot",
+        "Category": "ChatBoot",
+        "pricing": "free"
+    },
+    {
+        "id": 3,
+        "name": "ChatGpt",
+        "discription": "A powerfull AI model for ChatBoot",
+        "Category": "ChatBoot",
+        "pricing": "free"
+    },
+    {
+        "id": 4,
+        "name": "ChatGpt",
+        "discription": "A powerfull AI model for ChatBoot",
+        "Category": "ChatBoot",
+        "pricing": "free"
+    }
+]
