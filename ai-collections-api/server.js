@@ -3,6 +3,7 @@ const fs = require('fs');
 
 const server = http.createServer((req,res) => {
     res.setHeader('Content-Type','application/json');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     
     if(req.url === '/api'){
         const rawData = fs.readFileSync('data.json');
