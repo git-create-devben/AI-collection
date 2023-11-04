@@ -4,7 +4,7 @@ const fs = require('fs');
 const server = http.createServer((req,res) => {
     res.setHeader('Content-Type','application/json');
     
-    if(req.url === '/ai-collection-api'){
+    if(req.url === '/api'){
         const rawData = fs.readFileSync('data.json');
         res.end(rawData);
      }

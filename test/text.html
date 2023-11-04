@@ -11,7 +11,7 @@
     <pre id="result"></pre>
     <script>
         const fetchData =() => {
-            fetch('/ai-collections-api').the(res => res.json()).then(data => {
+            fetch('https').the(res => res.json()).then(data => {
                 document.getElementById('result').textContent=JSON.stringify(data,null,2);
             }).catch(err => {
                 console.error(error);
